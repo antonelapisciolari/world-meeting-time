@@ -13,8 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "🌍 Work Time Meeting Planner",
-  description: "by @antopiscio",
+  title: "🌍 World Meeting Time – Coordiná horarios internacionales",
+  description: "Encontrá los horarios laborales en común entre ciudades de todo el mundo.",
+  openGraph: {
+    title: "🌍 World Meeting Time",
+    description: "Coordiná reuniones internacionales sin estrés.",
+    url: "https://antonelapisciolari.github.io/world-meeting-time",
+    siteName: "World Meeting Time",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+        locale: "es_ES",
+        type: "website",
+  },
 };
 
 export default function RootLayout({
